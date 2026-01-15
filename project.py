@@ -1,7 +1,7 @@
 import random
 
 # ASCII Art-is funqcia
-def welcome():
+def display_welcome_art():
     art = """
     lets play history questions!
             \   ^__^
@@ -29,7 +29,7 @@ def start_game():
     game_questions = random.sample(questions, k = len(questions))
 
     score = 100
-    welcome()
+    display_welcome_art()
 
     print("welcome! for quiting press 'quit'.")
 
