@@ -1,0 +1,6 @@
+2023,Male,29,Austin Butler,Elvis
+2023,Female,60,Michelle Yeoh,Everything Everywhere All at Once
+1994,Male,37,Tom Hanks,Forrest Gump
+1974,Female,10,Tatum O'Neal,Paper Moon
+2016,Male,41,Leonardo DiCaprio,The Revenant
+1990,Female,35,Jessica Tandy,Driving Miss Daisy
