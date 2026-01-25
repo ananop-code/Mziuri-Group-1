@@ -1,7 +1,7 @@
 import random
 
 # ASCII Art-is funqcia
-def display_welcome():
+def display_welcome_art():
     art = """
     lets play history questions!
             \   ^__^
