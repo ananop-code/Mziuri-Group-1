@@ -1,0 +1,100 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+#title {
+  color: white;
+  padding: 60px 0;
+}
+
+.title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-text {
+  width: 50%;
+}
+
+.title-text h1 {
+  font-size: 40px;
+}
+
+.phone-img {
+  width: 250px;
+  transform: rotate(15deg);
+}
+
+.features-row {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.feature {
+  width: 30%;
+}
+
+#testimonial {
+  background: #f5f5f5;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.logos img {
+  width: 100px;
+  margin: 15px;
+}
+
+.pricing-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0;
+}
+.card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 30%;
+  text-align: center;
+}
+
+.middle {
+  border: 2px solid black;
+}
+
+#footer {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
